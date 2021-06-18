@@ -16,7 +16,7 @@ try {
     core.setFailed('search_string input is required');
     return;
   }
-  const regex = new RegExp(regexPattern, regexFlags);
+  const regex = new RegExp(regexPattern, regexFlags ?? '');
   const matches = searchString.match(regex);
   if (!matches) {
     console.log('Could not find any matches');
