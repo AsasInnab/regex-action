@@ -6,7 +6,7 @@ inputs:
     required: true
   regex_flags:
     description: "regex flag"
-    required: true
+    required: false
   search_string:
     description: "search string"
     required: true
