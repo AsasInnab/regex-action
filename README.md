@@ -10,7 +10,7 @@ This action matches a string against a regex pattern and outputs the first match
 
 ### `regex_flags`
 
-**Required** The regex flags (e.g. "**gim**")
+The regex flags (e.g. "**gim**")
 
 ### `search_string`
 
