@@ -8,10 +8,6 @@ try {
     core.setFailed('regex_pattern input is required');
     return;
   }
-  if (!regexFlags) {
-    core.setFailed('regex_flags input is required');
-    return;
-  }
   if (!searchString) {
     core.setFailed('search_string input is required');
     return;
